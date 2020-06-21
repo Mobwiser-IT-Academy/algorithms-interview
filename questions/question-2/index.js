@@ -9,9 +9,12 @@
  *
  * @returns string
  */
-function reverseString(input) {}
+function reverseString(inputs) {
+  const input = inputs[0];
+  // FIXME: Add your logic here
+}
 
 window.exercice2 = () => {
   const input = 'Hello';
-  return window.generateExercice(input, reverseString);
+  return window.generateExercice(reverseString, input);
 }

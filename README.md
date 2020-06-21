@@ -1,4 +1,4 @@
-# Technical interview - 10 algorithms questions
+# Technical interview - Algorithms questions
 
 This repository should be used as a mock technical interview. Here you will be able to practice some
 algorithm questions typically used by companies in their interviews for junior developers.

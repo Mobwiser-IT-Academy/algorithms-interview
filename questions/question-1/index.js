@@ -9,9 +9,12 @@
  *
  * @returns number
  */
-function sumArray(input) {}
+function sumArray(inputs) {
+  const input = inputs[0];
+  // FIXME: Add your logic here
+}
 
 window.exercice1 = () => {
   const input = [1, 2, 3, 4, 5];
-  return window.generateExercice(input, sumArray);
+  return window.generateExercice(sumArray, input);
 }

@@ -1,3 +1,3 @@
-window.solution2 = (input) => {
-  return input.split('').reverse().join('');
+window.solution2 = (inputs) => {
+  return inputs[0].split('').reverse().join('');
 }

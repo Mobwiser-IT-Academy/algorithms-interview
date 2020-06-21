@@ -1,6 +1,6 @@
-window.generateExercice = (input, fn) => {
+window.generateExercice = (fn, ...inputs) => {
   return {
-    input,
-    output: fn(input)
+    inputs,
+    output: fn(inputs)
   };
 }
