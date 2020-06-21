@@ -1,3 +1,4 @@
+import './utils/util';
 import { exercice as exercice1 } from "./questions/question-1";
 import { solution as solution1 } from "./solutions/question-1";
 

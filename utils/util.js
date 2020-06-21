@@ -1,4 +1,4 @@
-export function generateExercice(input, fn) {
+window.generateExercice = (input, fn) => {
   return {
     input,
     output: fn(input)
