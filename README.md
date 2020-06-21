@@ -17,6 +17,12 @@ value so that you can test your function through multiple inputs.
 1. After someone approves the PR you can delete it. These PR won't be merged to the master branch. The PRs will only be used
 as a way to provide some code review.
 
+### FAQ
+
+#### How do I know my PR is valid?
+
+You have to ensure all checks have passed as showed in the image below.
+![Checks passed](./imgs/checks-passed.png)
 
 ## Browser support
 * Chrome - last version
