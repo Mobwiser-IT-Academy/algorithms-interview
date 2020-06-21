@@ -1,6 +1,3 @@
-import { exercice as exercice1 } from "./questions/question-1";
-import { solution as solution1 } from "./solutions/question-1";
-
 const questions = [
   {
     title: "Simple array sum",
@@ -13,8 +10,22 @@ const questions = [
                         <li>Output: 15</li>
                        </ul>
                    </i>`,
-    exercice: exercice1(),
-    solution: solution1
+    exercice: window.exercice1(),
+    solution: window.solution1
+  },
+  {
+    title: "Reverse string",
+    instructions: `<i>
+                       Create a function that receives a string and returns the reverse of that string
+                       <br/>
+                       Example:
+                       <ul>
+                        <li>Input: Hello</li>
+                        <li>Output: olleH</li>
+                       </ul>
+                   </i>`,
+    exercice: window.exercice2(),
+    solution: window.solution2
   }
 ];
 $(document).ready(() => {
@@ -24,7 +35,7 @@ $(document).ready(() => {
     const exercice = question.exercice;
     const solution = question.solution(exercice.input);
     const isCorrect = solution === exercice.output;
-    questionsHtml = `<li>
+    questionsHtml += `<li>
           <div class="collapsible-header">
             <i class="material-icons ${isCorrect ? "check" : "error"}">${
       isCorrect ? "check" : "error"
