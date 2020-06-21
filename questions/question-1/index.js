@@ -8,7 +8,9 @@
  *
  * @returns number
  */
-function sumArray(input) {}
+function sumArray(input) {
+  return input.reduce((sum, entry) => (sum += entry));
+}
 
 export function exercice() {
   const input = [1, 2, 3, 4, 5];
