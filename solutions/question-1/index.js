@@ -1,3 +1,3 @@
-export function solution(input) {
-  return input.reduce((sum, entry) => (sum += entry));
+window.solution1 = (inputs) => {
+  return inputs[0].reduce((sum, entry) => (sum += entry));
 }

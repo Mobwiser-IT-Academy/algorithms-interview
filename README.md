@@ -1,4 +1,4 @@
-# Technical interview - 10 algorithms questions
+# Technical interview - Algorithms questions
 
 This repository should be used as a mock technical interview. Here you will be able to practice some
 algorithm questions typically used by companies in their interviews for junior developers.
@@ -13,9 +13,8 @@ algorithm challenge. Typically, each challenge contains 2 functions:
 value so that you can test your function through multiple inputs.
     * You can open the index.html file in the browser in order to check whether you solve all exercices sucessfully
 1. After you complete the interview create a PR. This PR will automatically run a script that will validate your interview. 
-    * If you have questions you can mention one of the Mobwiser mentors and ask for help
-1. After someone approves the PR you can delete it. These PR won't be merged to the master branch. The PRs will only be used
-as a way to provide some code review.
+    * If you have questions you can ask one Mobwiser mentor to review the PR and ask for help
+1. After someone approves the PR you can delete it. These PR **won't be merged to the master branch**. The PRs will only be used as a way to provide some code review.
 
 ### FAQ
 

@@ -16,9 +16,28 @@
     <link rel="stylesheet" href="./ui.css" />
   </head>
   <body>
+
+  <nav>
+    <div class="nav-wrapper white orange-text darken-1-text">
+      <a href="#" class="brand-logo">
+        <img src="imgs/logo.png" alt="mobwiser it academy">
+      </a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger orange-text darken-1-text"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down ">
+        <li><a class="orange-text darken-1-text" href="http://mobwiser.com/it-academy/">Mobwiser IT Academy</a></li>
+        <li><a class="orange-text darken-1-text" href="https://mobwiser.com/course/it-academy-study-guide-web-developer-2/">Full-stack bootcamp</a></li>
+        <li><a class="orange-text darken-1-text" href="https://github.com/Mobwiser-IT-Academy">Github</a></li>
+      </ul>
+    </div>
+  </nav>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="http://mobwiser.com/it-academy/">Mobwiser IT Academy</a></li>
+    <li><a href="https://mobwiser.com/course/it-academy-study-guide-web-developer-2/">Full-stack bootcamp</a></li>
+    <li><a href="https://github.com/Mobwiser-IT-Academy">Github</a></li>
+  </ul>
     <div class="container">
       <h3>Technical interview</h3>
-      <h4>10 algorithm questions</h4>
+      <h4>Algorithm questions</h4>
       <ul class="collapsible questions"></ul>
     </div>
     <script
@@ -28,7 +47,20 @@
     ></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="./utils/util.js" type="module"></script>
-    <script src="./ui.js" type="module"></script>
+    <script src="./utils/util.js"></script>
+    <!-- Questions -->
+    <script src="./questions/question-1/index.js"></script>
+    <script src="./questions/question-2/index.js"></script>
+    <script src="./questions/question-3/index.js"></script>
+    <script src="./questions/question-4/index.js"></script>
+    <script src="./questions/question-5/index.js"></script>
+    <!-- Solutions -->
+    <script src="./solutions/question-1/index.js"></script>
+    <script src="./solutions/question-2/index.js"></script>
+    <script src="./solutions/question-3/index.js"></script>
+    <script src="./solutions/question-4/index.js"></script>
+    <script src="./solutions/question-5/index.js"></script>
+    <script src="./data.js"></script>
+    <script src="./ui.js"></script>
   </body>
 </html>

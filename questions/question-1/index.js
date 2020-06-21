@@ -1,4 +1,5 @@
 /**
+ * Simple array sum
  * Change the function "sumArray".
  * This function should receive an array of integers and returns the sum of those numbers.
  *
@@ -8,11 +9,12 @@
  *
  * @returns number
  */
-function sumArray(input) {
-  return input.reduce((sum, entry) => (sum += entry));
+function sumArray(inputs) {
+  const input = inputs[0];
+  // FIXME: Add your logic here
 }
 
-export function exercice() {
+window.exercice1 = () => {
   const input = [1, 2, 3, 4, 5];
-  return window.generateExercice(input, sumArray);
+  return window.generateExercice(sumArray, input);
 }
