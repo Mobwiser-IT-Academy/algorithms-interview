@@ -9,7 +9,7 @@
  * @returns number
  */
 function sumArray(input) {
-  return 5;
+  return input.reduce((sum, entry) => (sum += entry));
 }
 
 export function exercice() {
