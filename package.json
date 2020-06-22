@@ -1,0 +1,35 @@
+{
+  "name": "algorithms-interview",
+  "version": "1.0.0",
+  "description": "Technical interview - 10 algorithm questions",
+  "main": "index.js",
+  "scripts": {
+    "start:interview": "node index.js --experimental-modules",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mobwiser-IT-Academy/algorithms-interview.git"
+  },
+  "keywords": [
+    "technical",
+    "interview",
+    "algoritm",
+    "questions"
+  ],
+  "author": "mobwiser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mobwiser-IT-Academy/algorithms-interview/issues"
+  },
+  "homepage": "https://github.com/Mobwiser-IT-Academy/algorithms-interview#readme",
+  "jest": {
+    "verbose": true
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1"
+  }
+}
