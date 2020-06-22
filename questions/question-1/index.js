@@ -13,7 +13,7 @@ function sumArray(inputs) {
   const input = inputs[0];
   return inputs[0].reduce((a, b) => a + b, 0);
  
-  // FIXME: Create a cariable that recieves the input and uses the parameter ".reduce" that makes the sum of all the numbers on the array, the aparameter adds 2 numbers then does the sum of the result of the first sum and adds the next number in the array and does that until the array ends
+  // FIXME: Create a variable that recieves the input and uses the parameter ".reduce" that makes the sum of all the numbers on the array, the aparameter adds 2 numbers then does the sum of the result of the first sum and adds the next number in the array and does that until the array ends
 }
 
 window.exercice1 = () => {
