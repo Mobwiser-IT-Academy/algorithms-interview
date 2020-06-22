@@ -14,7 +14,14 @@
 function rotateList(inputs) {
   const list = inputs[0];
   const counter = inputs[1];
-  // FIXME: Add your logic here
+
+  let i=1 
+  while (i<inputs[1]) {
+    inputs[0].unshift(inputs[0].pop())
+    i++
+  }
+  return inputs[0];
+  // FIXME: Use the ".unshift" that adds an element to the begining of the array, and you add the number that you got from the ".pop" that take the last element of the array
 }
 
 window.exercice5 = () => {

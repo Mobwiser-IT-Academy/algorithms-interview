@@ -13,10 +13,11 @@
  */
 function checkAverage(inputs) {
   const list = inputs[0];
+  return inputs[0].reduce((a, b) => a + b, 0)/ inputs[0].length;
   // FIXME: Add your logic here
 }
 
 window.exercice4 = () => {
-  const input = [1,2,3,4,5,6];
+  const input = [1, 2, 3, 4, 5, 6];
   return window.generateExercice(checkAverage, input);
 }

@@ -18,7 +18,16 @@
 function checkAnagram(inputs) {
   const wordA = inputs[0];
   const wordB = inputs[1];
-  // FIXME: Add your logic here
+  
+  a = inputs[0].split("").sort().join("");
+  b = inputs[1].split("").sort().join("");
+
+  if (a === b) {
+    return true;
+  } else {
+    return false;
+  }
+  // FIXME: Split both srings into letter, use the ".sort" to organize all the leter from a to z and join all the letter into a string again. Then compare both sorted strings and return true or false
 }
 
 window.exercice3 = () => {
