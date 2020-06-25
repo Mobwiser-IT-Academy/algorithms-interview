@@ -18,7 +18,20 @@
 function checkAnagram(inputs) {
   const wordA = inputs[0];
   const wordB = inputs[1];
-  // FIXME: Add your logic here
+  
+  // const lettersA = wordA.split('');
+  // const lettersB = wordB.split('');
+  
+  // let acc = 0
+
+  // for(let i = 0; i< lettersA.length; i++) {
+  //   if( lettersB.includes(lettersA[i])) acc+=1;
+  // }
+
+  // return acc === lettersA.length ? true : false;
+
+
+  return wordA.toLowerCase().split('').sort().join('') === wordB.toLowerCase().split('').sort().join('');  
 }
 
 window.exercice3 = () => {

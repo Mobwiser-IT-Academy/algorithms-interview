@@ -14,7 +14,12 @@
 function rotateList(inputs) {
   const list = inputs[0];
   const counter = inputs[1];
-  // FIXME: Add your logic here
+  for(let i = 0; i < counter; i++ ) {
+    const listItem = list.pop();
+    list.unshift(listItem);
+  }
+
+  return list;
 }
 
 window.exercice5 = () => {

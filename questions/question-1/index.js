@@ -11,7 +11,10 @@
  */
 function sumArray(inputs) {
   const input = inputs[0];
-  // FIXME: Add your logic here
+  return input.reduce( (acc, curr) => {
+    
+    return acc += parseInt(curr, 10);
+  }, 0);
 }
 
 window.exercice1 = () => {
