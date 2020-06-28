@@ -19,6 +19,7 @@ function checkAnagram(inputs) {
   const wordA = inputs[0];
   const wordB = inputs[1];
   // FIXME: Add your logic here
+  return wordA.split('').sort().join('') === wordB.split('').sort().join('');
 }
 
 window.exercice3 = () => {

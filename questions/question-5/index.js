@@ -15,6 +15,11 @@ function rotateList(inputs) {
   const list = inputs[0];
   const counter = inputs[1];
   // FIXME: Add your logic here
+  for(i=0; i<counter; i++){
+    let item = list.shift();
+    list.push(item);
+  }
+  return list;
 }
 
 window.exercice5 = () => {
