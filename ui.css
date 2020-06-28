@@ -1,0 +1,11 @@
+i.check {
+    color: #067606;
+}
+i.error {
+    color: #a30505;
+}
+.brand-logo img{
+    padding: 10px;
+    width: 70px;
+
+}
