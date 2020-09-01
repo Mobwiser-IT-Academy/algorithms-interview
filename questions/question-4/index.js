@@ -13,7 +13,11 @@
  */
 function checkAverage(inputs) {
   const list = inputs[0];
-  // FIXME: Add your logic here
+  let sum = 0;
+  for(let i = 0; i<list.length; i++) {
+    sum += list[i];
+  }
+  return sum/list.length;
 }
 
 window.exercice4 = () => {

@@ -11,7 +11,11 @@
  */
 function sumArray(inputs) {
   const input = inputs[0];
-  // FIXME: Add your logic here
+  let sum = 0;
+  for(let i = 0; i<input.length; i++) {
+	  sum += input[i];
+  }
+  return sum; // a primeiro estava ausar o inputs todo
 }
 
 window.exercice1 = () => {
