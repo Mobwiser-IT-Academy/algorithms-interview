@@ -12,6 +12,7 @@
 function reverseString(inputs) {
   const input = inputs[0];
   // FIXME: Add your logic here
+<<<<<<< HEAD
   return input.split("").reverse().join("");
 }
 
@@ -20,3 +21,11 @@ window.exercice2 = () => {
   return window.generateExercice(reverseString, input);
 }
 gene
+=======
+}
+
+window.exercice2 = () => {
+  const input = 'Hello';
+  return window.generateExercice(reverseString, input);
+}
+>>>>>>> 0dc46e7c8593d062579547d299466e532abe1790

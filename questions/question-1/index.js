@@ -12,6 +12,7 @@
 function sumArray(inputs) {
   const input = inputs[0];
   // FIXME: Add your logic here
+<<<<<<< HEAD
 
 const sum = input.reduce((accumulator,currentValue) => accumulator + currentValue);
 
@@ -25,3 +26,11 @@ window.exercice1 = () => {
 }
 
 
+=======
+}
+
+window.exercice1 = () => {
+  const input = [1, 2, 3, 4, 5];
+  return window.generateExercice(sumArray, input);
+}
+>>>>>>> 0dc46e7c8593d062579547d299466e532abe1790
