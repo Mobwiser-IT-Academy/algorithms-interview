@@ -18,7 +18,6 @@
 function checkAnagram(inputs) {
   const wordA = inputs[0];
   const wordB = inputs[1];
-<<<<<<< HEAD
   
   // FIXME: Add your logic here
 if (wordA.length!= wordB.length){
@@ -36,13 +35,5 @@ window.exercice3 = () => {
   const wordA = 'cineman';
   const wordB = 'iceman';
 
-=======
-  // FIXME: Add your logic here
-}
-
-window.exercice3 = () => {
-  const wordA = 'cinema';
-  const wordB = 'iceman';
->>>>>>> 0dc46e7c8593d062579547d299466e532abe1790
   return window.generateExercice(checkAnagram, wordA, wordB);
 }

@@ -13,7 +13,7 @@ function sumArray(inputs) {
   const input = inputs[0];
   // FIXME: Add your logic here
 
-const sum = input.reduce((accumulator,currentValue) => accumulator + currentValue);
+let sum = input.reduce((accumulator,currentValue) => accumulator + currentValue);
 
   return sum;
 
