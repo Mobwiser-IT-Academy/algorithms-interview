@@ -9,12 +9,23 @@
  *
  * @returns number
  */
+/*
+ function sumArray() {
+  const input = [1, 2, 3, 4, 5, 6];
+  var sum = 0;
+  for(var i = 0; i < input.length; i++) {
+    sum = sum + input[i]
+  }
+  return sum;
+}
+*/
 function sumArray(inputs) {
   const input = inputs[0];
-  // FIXME: Add your logic here
+  return input.reduce((sum, arr) => (sum + arr));  
 }
 
+
 window.exercice1 = () => {
-  const input = [1, 2, 3, 4, 5];
+  const input = [1, 2, 3, 4, 5, 6];  
   return window.generateExercice(sumArray, input);
 }
