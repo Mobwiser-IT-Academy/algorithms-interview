@@ -21,7 +21,7 @@
 */
 function sumArray(inputs) {
   const input = inputs[0];
-  return input.reduce((sum, arr) => (sum + arr));  
+  return input.reduce((sum, arr) => (sum + arr)); 
 }
 
 

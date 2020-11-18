@@ -17,6 +17,6 @@ function checkAverage(inputs) {
 }
 
 window.exercice4 = () => {
-  const input = [1,2,3,4,5,6];
+  const input = [1,2,3,4,5,6,7,9];
   return window.generateExercice(checkAverage, input);
 }

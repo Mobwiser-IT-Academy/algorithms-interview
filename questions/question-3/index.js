@@ -20,7 +20,7 @@ function checkAnagram(inputs) {
   const wordB = inputs[1];
   inputs[0] = inputs[0].toLowerCase().split('').sort().join('');
   inputs[1] = inputs[1].toLowerCase().split('').sort().join(''); 
-  return inputs[0] === inputs[1];
+  return inputs[0] === inputs[1];  
 }
 
 window.exercice3 = () => {
