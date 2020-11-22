@@ -17,9 +17,11 @@ function rotateList(inputs) {
   if (counter < list.length) {
     let temp = list.splice(-counter);
     list.unshift(...temp);
-  }  else if (counter > list.length) {
-      let temp = list.splice(-1);
-      list.unshift(...temp);
+  } else {
+     for ( var i = 0; i < list.lenght; i++) {
+       let temp = list.splice(-i);
+       list.unshift(...temp);
+      }
     }
   return list;
 }
@@ -27,7 +29,7 @@ function rotateList(inputs) {
 
 window.exercice5 = () => {
   const list = [1,2,3,4,5];
-  const n = 2;
+  const n = 7;
   return window.generateExercice(rotateList, list, n);
 }
 
