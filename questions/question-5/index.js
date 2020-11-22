@@ -14,7 +14,13 @@
 function rotateList(inputs) {
   const list = inputs[0];
   const counter = inputs[1];
-  // FIXME: Add your logic here
+  if (counter < list.length) {
+    let temp = list.splice(-counter);
+    list.unshift(...temp);
+  }  else if (counter > list.length) {
+      let temp = list.splice(-1);
+      list.unshift(...temp);
+    }
   return list;
 }
 
