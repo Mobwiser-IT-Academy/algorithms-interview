@@ -12,6 +12,13 @@
 function sumArray(inputs) {
   const input = inputs[0];
   // FIXME: Add your logic here
+
+  let total = 0;
+
+  input.forEach(element => total += element);
+
+  return total;
+
 }
 
 window.exercice1 = () => {

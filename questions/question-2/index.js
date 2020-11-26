@@ -12,6 +12,14 @@
 function reverseString(inputs) {
   const input = inputs[0];
   // FIXME: Add your logic here
+
+  let word = "";
+
+  for(let i = input.length - 1; i >= 0; i--){
+    
+    word += input[i];
+  }
+  return word;
 }
 
 window.exercice2 = () => {

@@ -19,6 +19,16 @@ function checkAnagram(inputs) {
   const wordA = inputs[0];
   const wordB = inputs[1];
   // FIXME: Add your logic here
+
+  let a = wordA.split("").sort();
+  let b = wordB.split("").sort();
+
+  for(let i = 0; i < a.length; i++){
+     if(a[i] !== b[i]){
+       return false;
+     }
+     return true;
+  }
 }
 
 window.exercice3 = () => {
