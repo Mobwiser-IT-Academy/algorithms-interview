@@ -1,19 +1,19 @@
 $(document).ready(() => {
-  let questionsHtml = "";
-  const questionsListContainer = $(".collapsible.questions");
+  let questionsHtml = '';
+  const questionsListContainer = $('.collapsible.questions');
   window.questions.forEach((question, index) => {
     const exercice = question.exercice;
-    console.log(exercice);
     const solution = question.solution(exercice.inputs);
-    const isCorrect = solution === exercice.output;
+    const isCorrect =
+      JSON.stringify(solution) === JSON.stringify(exercice.output);
     const inputsString = exercice.inputs.reduce(
       (inputString, input) => (inputString += `${JSON.stringify(input)},`),
-      ""
+      '',
     );
     questionsHtml += `<li>
           <div class="collapsible-header">
-            <i class="material-icons ${isCorrect ? "check" : "error"}">${
-      isCorrect ? "check" : "error"
+            <i class="material-icons ${isCorrect ? 'check' : 'error'}">${
+      isCorrect ? 'check' : 'error'
     }</i>
             Question #${index + 1} - ${question.title}
           </div>
@@ -22,7 +22,7 @@ $(document).ready(() => {
              <blockquote>
                 <div>Inputs: (${inputsString.substr(
                   0,
-                  inputsString.length - 1
+                  inputsString.length - 1,
                 )}) </div>
                 <div>Expected output: ${JSON.stringify(solution)} </div>
                 <div>Received output: ${JSON.stringify(exercice.output)} </div>

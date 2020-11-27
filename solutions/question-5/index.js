@@ -1,4 +1,4 @@
-window.solution5 = inputs => {
+window.solution5 = (inputs) => {
   const list = inputs[0];
   const counter = inputs[1];
   if (list.length > counter) {
@@ -6,7 +6,7 @@ window.solution5 = inputs => {
   } else {
     let i = 0;
     while (i < counter) {
-      list.unshift(list.splice(-1));
+      list.unshift(...list.splice(-1));
       i++;
     }
   }
