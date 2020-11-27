@@ -16,12 +16,12 @@ function rotateList(inputs) {
   const counter = inputs[1];
   // FIXME: Add your logic here
 
-  if(counter < list.length) {
+  let i = 0;
 
-  return list.slice(list.length - counter).concat(list.slice(0, list.length - counter));
-  
-  } 
-
+  while(i < counter){
+    list.unshift(list.pop());
+    i++;
+  }
   return list;
 }
 
